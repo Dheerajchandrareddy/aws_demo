@@ -7,7 +7,7 @@
   vars:
     instance_name: "TEST_INSTANCE"
     owner_tag: "unknown"
-    ec2_region: "{{ your_region | default('us-east-1') }}"
+    ec2_region: "{{ your_region | default('us-west-2') }}"
   tasks:
 
     ## provision resources to provision RHEL onto (e.g. VPC)
